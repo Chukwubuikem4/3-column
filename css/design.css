@@ -1,0 +1,141 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+body{
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0;
+  height: auto;
+}
+h1{
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+ 
+}
+#container{
+  width: 375px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+
+}
+.items1{
+  background-color: hsl(31, 77%, 52%);
+  background-position: center;
+  padding-left: 60px;
+  padding-top: 65px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-bottom: 65px;
+
+}
+
+.items2{
+  background-color: hsl(184, 100%, 22%);
+  background-position: center;
+  padding-left: 60px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.items3{
+  background-color: hsl(179, 100%, 13%);
+  background-position: center;
+  padding-left: 60px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+p{
+  display: flex;
+  flex: 0 1 30vw;
+  height: 27vh;
+  color: white;
+  width: 260px;
+  line-height: 2rem;
+  
+
+}
+
+#btn{
+ 
+  border: 2px solid white;
+  
+  padding: 0.8rem;
+  padding-left: 1.5rem;
+  border-radius: 50px;
+  width: 120px;
+  background-color: white;
+}
+
+a.i{
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
+  font-size: 19px;
+}
+
+a.ii{
+  color: hsl(184, 100%, 22%);
+  text-decoration: none;
+  font-size: 19px;
+}
+
+a.iii{
+  color: hsl(179, 100%, 13%);
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#btn.i:hover{
+  background-color: hsl(31, 77%, 52%);
+}
+
+#btn.ii:hover{
+  background-color: hsl(184, 100%, 22%);
+}
+
+#btn.iii:hover{
+  background-color: hsl(179, 100%, 13%);
+}
+
+a.i:hover, a.ii:hover, a.iii:hover{
+  color: white;
+}
+@media(min-width: 600px) {
+  #container{
+    display: flex;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+    padding-left: 60px;
+    
+  }
+  #container2{
+    display: flex;
+   
+  }
+  .items1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    padding-right: 40px;
+  }
+  .items2{
+    padding-right: 40px;
+  }
+  .items3{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    padding-right: 40px;
+  }
+  
+}
